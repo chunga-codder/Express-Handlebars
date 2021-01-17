@@ -23,7 +23,7 @@
 - [Difficulties](#difficulties);
 - [Technologies](#technologies);
 - [Installation](#installation);
-- [Installation](#installation);
+
 
 ## Installation:
 
@@ -82,4 +82,26 @@ this steps are inportand to master as they will make your work easy to follow
 - express
 
 and a lot more but this are the most importand steps needed
+
+
+## Difficulties:
+
+I had alot of difficulties hosting this application in heroku, 
+again, where i encountered difficulties again in this application was creating my orm function,with this little time given to complete this project, and organising my project in general,where to start and where to go after, i had to research alot on the internet befor polling this off.
+
+i am happy i was able to come this far
+
+## Technologies:
+
+Here i used morden technologies like
+
+- HTML
+- CSS
+- MARKDOWN
+- JAVASCRIPT
+- NODE.JS
+- EXPRESS
+- HANDLEBARS 
+
+Just to mention a few of them
 
