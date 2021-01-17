@@ -21,6 +21,60 @@
 - [Video-links](#video-links);
 - [Instructions-followed](#instructions-followed);
 - [Difficulties](#difficulties);
+- [Technologies](#technologies);
 - [Installation](#installation);
 - [Installation](#installation);
-- [Installation](#installation);
+
+## Installation:
+
+this application can be installed by oppening the links mentioned bellow under the links section .
+it is not difficult to install as it is easy to install and use.
+
+## Dependences: 
+
+the dependences of this applications needed to run this app are as follos 
+
+- Express
+- Express-Handlebars
+- mysql
+
+since the upgradd express contains the body parsers,we will not need to install those.
+
+## Images: 
+
+
+
+## Links:
+the following liks are the links to the application deploid
+
+- [Github](https://github.com/chunga-codder/    Express-Handlebars);
+
+- [heroku](https://blooming-lowlands-38275.herokuapp.com/);
+
+
+## Video-links:
+
+you can check out the samp-le functionality of the application from this following video links bellow using screen castify
+
+## Instructions-followed:
+
+this steps are inportand to master as they will make your work easy to follow
+
+- Create a GitHub repo called burger and clone it to your computer.
+
+- Make a package.json file by running npm init from the command line.
+
+- Install the Express npm package: npm install express.
+
+- Create a server.js file.
+
+- Install the Handlebars npm package: npm install express-handlebars.
+
+- Install MySQL npm package: npm install mysql.
+
+- Require the following npm packages inside of the server.js file:
+
+- express
+
+and a lot more but this are the most importand steps needed
+
