@@ -50,16 +50,16 @@ since the upgradd express contains the body parsers,we will not need to install 
 ## Links:
 the following liks are the links to the application deploid
 
-- [Github](https://github.com/chunga-codder/Express-Handlebars);
+- [Github](https://github.com/chunga-codder/Express-Handlebars)
 
-- [heroku](https://blooming-lowlands-38275.herokuapp.com/);
+- [heroku](https://blooming-lowlands-38275.herokuapp.com/)
 
 
 ## Video-links:
 
 you can check out the samp-le functionality of the application from this following video links bellow using screen castify
 
--[sample-video-of-app](https://drive.google.com/file/d/1xvQDGRsobU_6tQ7xWFAWnTBTn9Tv6jOs/view)
+- [sample-video-of-app](https://drive.google.com/file/d/1xvQDGRsobU_6tQ7xWFAWnTBTn9Tv6jOs/view)
 
 ## Instructions-followed:
 
