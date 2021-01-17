@@ -42,6 +42,9 @@ since the upgradd express contains the body parsers,we will not need to install 
 
 ## Images: 
 
+![Capture 2](https://user-images.githubusercontent.com/71171928/104843117-42f5ae00-58c9-11eb-931a-8417c90735b8.PNG)
+![Capture](https://user-images.githubusercontent.com/71171928/104843118-42f5ae00-58c9-11eb-918b-1739a71f568e.PNG)
+
 
 
 ## Links:
