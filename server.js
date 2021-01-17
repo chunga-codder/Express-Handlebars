@@ -20,7 +20,7 @@ var exphbs = require('express-handlebars');
 app.engine('hbs', exphbs({
     defaultLayout: 'main'
 }));
-
+//using path.join and requiring mu path modules because i am using windows 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
