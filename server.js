@@ -1,31 +1,41 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var methodOverride = require('method-override');
-var path = require('path')
+// *****************************************************************************
+// Server.js - This file is the initial starting point for the Node/Express server.
+// ******************************************************************************
+// *** Dependencies
+// =============================================================
+var express = require("express");
+var bodyParser = require("body-parser");
+
+// *** Sets up the Express App
+// =============================================================
 var app = express();
+var PORT = process.env.PORT || 8080;
 
-// just adding the body parser should in case it is not deprecated
-// setting the port so the mysql can listen to it
-var PORT = process.env.PORT || 3000;
+// *** Sets up the Express app to handle data parsing
+// =============================================================
+// Serve static content for the app from the "public" directory
+app.use(express.static("public"));
 
-//Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static(process.cwd() + '/public'));
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(bodyParser.urlencoded({
-	extended: false
-}));
+// parse application/json
+app.use(bodyParser.json());
 
-app.use(methodOverride('_method'))
-var exphbs = require('express-handlebars');
-app.engine('hbs', exphbs({
-    defaultLayout: 'main'
-}));
-//using path.join and requiring mu path modules because i am using windows 
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+// *** Set Handlebars
+// =============================================================
+var exphbs = require("express-handlebars");
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
 
-var routes = require('./controllers/burgers_controllers.js');
-app.use('/', routes);
+// *** Import routes and give server access
+// =============================================================
+var routes = require("./controllers/burgerController.js");
+app.use(routes);
 
-
-app.listen(PORT);
+// *** Start server to listen to client requests
+// =============================================================
+app.listen(PORT, function() {
+  // Log (server-side) when our server has started
+  console.log("Server listening on: http://localhost:" + PORT);
+});
