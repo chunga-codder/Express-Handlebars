@@ -5,7 +5,7 @@ var path = require('path')
 var app = express();
 
 // just adding the body parser should in case it is not deprecated
-
+// setting the port so the mysql can listen to it
 var PORT = process.env.PORT || 3000;
 
 //Serve static content for the app from the "public" directory in the application directory.
