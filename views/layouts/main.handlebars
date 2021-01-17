@@ -1,17 +1,23 @@
-<!--
-Here is the main HTML where handlebars will render to
- -->
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Linking CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+
 		<title>Eat-Da-Burger</title>
+
+	<!-- Added link to the jQuery Library -->	
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/assets/js/burger.js"></script>
+		
 	</head>
 	<body>
-			{{{ body }}}
+		{{{ body }}}
 	</body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </html>
