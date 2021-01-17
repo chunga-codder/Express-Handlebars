@@ -1,4 +1,7 @@
-insert into burgers_tbl(burger_name) values ('Cheese Burger');
-insert into burgers_tbl(burger_name) values ('Hamburger');
-insert into burgers_tbl(burger_name) values ('Bacon Cheese Burger');
-insert into burgers_tbl(burger_name) values ('Garlic Burger');
+USE burgers_db;
+
+INSERT INTO burgers (burger_name, devoured) VALUES ('Triple Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Quarter Pounder with Cheese Bacon', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Smokehouse Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Cheeseburger', false);
