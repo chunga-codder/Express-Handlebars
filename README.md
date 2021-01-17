@@ -47,7 +47,7 @@ since the upgradd express contains the body parsers,we will not need to install 
 ## Links:
 the following liks are the links to the application deploid
 
-- [Github](https://github.com/chunga-codder/    Express-Handlebars);
+- [Github](https://github.com/chunga-codder/Express-Handlebars);
 
 - [heroku](https://blooming-lowlands-38275.herokuapp.com/);
 
