@@ -59,6 +59,8 @@ the following liks are the links to the application deploid
 
 you can check out the samp-le functionality of the application from this following video links bellow using screen castify
 
+-[sample-video-of-app](https://drive.google.com/file/d/1xvQDGRsobU_6tQ7xWFAWnTBTn9Tv6jOs/view)
+
 ## Instructions-followed:
 
 this steps are inportand to master as they will make your work easy to follow
