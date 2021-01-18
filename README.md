@@ -52,7 +52,7 @@ the following liks are the links to the application deploid
 
 - [Github](https://github.com/chunga-codder/Express-Handlebars)
 
-- [heroku](https://blooming-lowlands-38275.herokuapp.com/)
+- [heroku](https://blooming-lowlands-38275.herokuapp.com)
 
 
 ## Video-links:
